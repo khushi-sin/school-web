@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.content{
+    width: 100%;
+    height: 120vw;
+   
+   
+}
+.content h5{
+    font-size: 18px;
+    font-weight: 500;
+    color: #ff6600;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5vw;
+    margin-bottom: 8vw;
+}
+.content .para{
+    margin: 0 8vw;
+    border-left: 1px solid #ff6600;
+}
+.para h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ff6600;
+    padding: 0.2vw 1.5vw;
+    font-weight: 550;
+}
+.para p{
+    font-size: 15px;
+    padding: 0.5vw 4vw;
+
+}
+.content .boxes{
+    display: flex;
+   gap: 12px;
+   padding-left: 8vw ;
+   padding-bottom: 1vw;
+   text-align: center;
+}
+.boxes .box-1{
+    width: 18vw;
+    height: 20vw;
+    background-color: #ff6600;
+
+
+}
+.boxes .box-2{
+    width: 18vw;
+    height: 20vw;
+    background-color: #ff6600;
+  
+
+}.boxes .box-3{
+    width: 18vw;
+    height: 20vw;
+    background-color: #ff6600;
+
+
+}.boxes .box-4{
+    width: 18vw;
+    height: 20vw;
+    background-color: #ff6600;
+}
+.boxes h4{
+    font-size: 20px;
+    font-weight: 550;
+    color: white;
+    padding-top: 2vw;
+
+}
+.boxes p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    padding: 1vw 1vw;
+    color: #fff;
+}
+.para .image{
+    display: flex;
+    padding: 2vw 0;
+   
+}
+.para .image img{
+    width: 25vw;
+    height: 20vw;
+    padding-left: 2vw;
+}
+.para .btn{
+    font-size: 15px;
+    border: none;
+    font-weight: 550;
+    background-color: #ff6600;
+    border-radius: 0;
+    padding: 1vw 4vw;
+    margin-left: 30vw;
+    
+}
+.para .btn a{
+    text-decoration: none;
+    color: #fff;
+    text-align: center; 
+}
